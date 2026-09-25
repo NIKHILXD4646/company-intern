@@ -106,7 +106,6 @@ function CustomerSuccess() {
         <div className="customer-logo-area">
 
   <div className="customer-logo-carousel">
-
     <button
       className="customer-arrow customer-arrow-left"
       onClick={previousSlide}
