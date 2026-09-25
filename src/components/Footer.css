@@ -1,0 +1,352 @@
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+
+  background-color: #eef3fc;
+  background-image: url("./assets/footer-bg.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  color: #222;
+
+  padding: 32px 60px 10px;
+  overflow: hidden;
+}
+
+
+/* =========================
+   FOOTER MAIN
+========================= */
+
+.footer-main {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1.25fr 1.85fr 1.59fr;
+
+  column-gap: 35px;
+  align-items: start;
+}
+
+
+/* =========================
+   COMPANY
+========================= */
+
+.footer-company {
+  text-align: left;
+  padding-top: 1px;
+}
+
+.footer-logo-image {
+  width: 98px;
+  height: auto;
+  display: block;
+  margin-bottom: 21px;
+}
+
+.footer-company p {
+  margin: 3px 0;
+  color: #0b0b0b;
+  font-size: 13px;
+  line-height: 1.35;
+  font-weight: 500;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+.footer-navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  text-align: left;
+  margin-left: 24px;
+}
+
+.footer-nav-column {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.footer-navigation a {
+  color: #010101;
+  text-decoration: none;
+
+  font-size: 13px;
+  line-height: 1.7;
+  font-weight: 500;
+
+  transition: color 0.1s ease;
+}
+
+.footer-navigation a:hover {
+  color: #3d7dd7;
+}
+
+
+/* =========================
+   REGION
+========================= */
+
+.footer-region {
+  text-align: center;
+  padding-top: 0;
+}
+
+.region-btn {
+  width: 190px;
+  height: 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+
+  /* Removed margin-left: 150px */
+  margin: 0 auto;
+
+  background: rgba(255, 255, 255, 0.9);
+  color: #020202;
+
+  border: 1px solid #aebbd0;
+
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.region-icon {
+  font-size: 17px;
+  color: #0a0a0a;
+}
+
+.region-btn span {
+  font-weight: 500;
+}
+
+
+/* =========================
+   SOCIAL ICONS
+========================= */
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+  margin-top: 11px;
+}
+
+.social-icons a {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+
+  object-fit: contain;
+  display: block;
+
+  border-radius: 50%;
+}
+
+
+/* =========================
+   BOTTOM
+========================= */
+
+.footer-bottom {
+  width: calc(100% + 120px);
+  margin-left: -60px;
+  box-sizing: border-box;
+  border-top: 1px solid #0c0c0c;
+  margin-top: 12px;
+  padding: 12px 60px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* =========================
+   COPYRIGHT
+========================= */
+
+.footer-copy {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: 160px;
+
+  font-size: 12px;
+  color: #0f0f0f;
+  font-weight: 500;
+}
+
+.footer-copy svg {
+  font-size: 9px;
+}
+
+
+/* =========================
+   EMAIL + MOBILE
+========================= */
+
+.footer-contact {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  gap: 65px;
+
+  font-size: 13px;
+  color: #0b0b0b;
+  margin-right: 290px;
+}
+
+.footer-contact span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.contact-icon {
+  font-size: 16px;
+  color: #1683d8;
+
+  /* Removed margin-left: 60px */
+}
+
+
+/* =========================
+   CHAT BUTTON
+========================= */
+
+.chat-button {
+  position: absolute;
+
+  right: 24px;
+  bottom: 70px;
+
+  width: 42px;
+  height: 42px;
+
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+
+  background: #2867b2;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 19px;
+
+  cursor: pointer;
+
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.20);
+
+  z-index: 9999;
+
+  transition: 0.25s ease;
+}
+
+.chat-button:hover {
+  background: #1f5da8;
+  transform: translateY(-2px);
+}
+
+.chat-button svg {
+  stroke-width: 1.8;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+  .footer {
+    padding: 30px 25px 10px;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+    row-gap: 28px;
+  }
+
+  .footer-company {
+    text-align: center;
+  }
+
+  .footer-logo-image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-navigation {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    text-align: center;
+  }
+
+  .footer-nav-column {
+    align-items: center;
+  }
+
+  .footer-region {
+    text-align: center;
+  }
+
+  .region-btn {
+    margin: 0 auto;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .footer-bottom {
+    width: calc(100% + 50px);
+    margin-left: -25px;
+
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 12px 25px 10px;
+
+    text-align: center;
+  }
+
+  .footer-contact {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .chat-button {
+    right: 15px;
+    bottom: 18px;
+  }
+}

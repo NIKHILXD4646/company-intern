@@ -1,0 +1,130 @@
+/* =========================
+   EXPERIENCE
+========================= */
+
+.experience {
+  background-color: white;
+  color: #172033;
+  text-align: center;
+  padding: 70px 50px;
+}
+
+.experience h2 {
+  font-size: 28px;
+  color: #172033;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+.experience h2 strong {
+  font-weight: 700;
+}
+
+
+/* =========================
+   EXPERIENCE STATS
+========================= */
+
+.experience-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto 50px;
+  gap: 50px;
+}
+
+.experience-stats > div {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  align-items: center;
+}
+
+.experience-stats h3 {
+  color: #44ce9e;
+  font-size: 28px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.experience-stats p {
+  font-size: 13px;
+  margin: 0;
+  text-align: left;
+  line-height: 1.4;
+  color: #0a0a0a;
+}
+
+
+/* =========================
+   IMAGE + TEXT
+========================= */
+
+.experience-content {
+  display: grid;
+  grid-template-columns: 420px 440px;
+  column-gap: 20px;
+  max-width: 930px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+
+/* =========================
+   BULB IMAGE - LEFT COLUMN
+========================= */
+
+.experience-image {
+  grid-column: 1;
+
+  width: 420px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.experience-image img {
+  width: 360px;
+  height: auto;
+  display: block;
+}
+
+
+/* =========================
+   TEXT - RIGHT COLUMN
+========================= */
+
+.experience-text {
+  grid-column: 2;
+  width: 550px;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+.experience-text p {
+  display: flex;
+  align-items: flex-start;
+
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #172033;
+
+  margin: 0 0 20px;
+  padding: 0;
+
+  text-align: left;
+}
+
+.experience-text .check {
+  width: 28px;
+  min-width: 28px;
+
+  font-size: 18px;
+  color: #172033;
+}
+
+.experience-text p span:last-child {
+  flex: 1;
+}

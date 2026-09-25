@@ -1,0 +1,664 @@
+/* =========================================
+   CUSTOMER SUCCESS
+========================================= */
+
+.customer-success {
+  width: 100%;
+  background: #f7fbff;
+  padding: 70px 20px 80px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.customer-success-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+/* =========================================
+   HEADING
+========================================= */
+
+.customer-success-heading {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.customer-success1 h2 {
+  font-size: 28px;
+  font-weight: 400;
+  color: #090909;
+  margin: 0 0 80px;
+}
+
+.customer-success1 h2 strong {
+  font-weight: 700;
+}
+
+.customer-success-heading p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #65758b;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   CUSTOMER IMAGE + INFORMATION
+========================================= */
+
+.customer-testimonial {
+  position: relative;
+  width: 100%;
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.customer-image {
+  position: relative;
+  z-index: 1;
+
+  width: 460px;
+  height: 285px;
+
+  flex-shrink: 0;
+  overflow: hidden;
+
+  margin-left: 30px;
+}
+
+.customer-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+/* =========================================
+   CUSTOMER CARD
+========================================= */
+
+.customer-about {
+  position: relative;
+  z-index: 4;
+
+  width: 770px;
+  height: 290px;
+
+  margin-left: -70px;
+  margin-top: -65px;
+
+  border-radius: 19px;
+
+  padding: 28px 32px 24px 32px;
+
+  background: #ffffff;
+
+  box-shadow: 0 8px 25px rgba(40, 65, 95, 0.08);
+
+  box-sizing: border-box;
+  text-align: left;
+}
+
+
+/* =========================================
+   QUOTE
+========================================= */
+
+.customer-quote {
+  position: relative;
+
+  width: 42px;
+  height: 32px;
+
+  margin: 0 0 -8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #0f0f0f;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 42px;
+  font-weight: 700;
+
+  line-height: 1;
+}
+
+
+/* =========================================
+   TCS LOGO
+========================================= */
+
+.customer-brand {
+  width: 90px;
+  height: 38px;
+
+  margin: 0 0 9px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  background: transparent;
+}
+
+.customer-brand img {
+  width: 62px;
+  height: 38px;
+
+  display: block;
+
+  object-fit: contain;
+  object-position: left center;
+}
+
+
+/* =========================================
+   NAME
+========================================= */
+
+.customer-about h3 {
+  margin: 0 0 6px;
+
+  color: #17243b;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  line-height: 1.3;
+  text-align: left;
+}
+
+
+/* =========================================
+   POSITION
+========================================= */
+
+.customer-position {
+  display: block;
+
+  margin: 0 0 20px;
+
+  color: #0c0c0c;
+
+  font-size: 10px;
+  font-weight: 400;
+
+  line-height: 1.4;
+  text-align: left;
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.customer-about p {
+  width: 100%;
+  max-width: 405px;
+
+  margin: 0;
+
+  color: #0b0b0b;
+
+  font-size: 13px;
+  font-weight: 400;
+
+  line-height: 1.55;
+  text-align: left;
+}
+
+
+/* =========================================
+   LOGO AREA
+========================================= */
+
+.customer-logo-area {
+  width: 100%;
+
+  height: 180px;
+  min-height: 180px;
+  max-height: 180px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+/* =========================================
+   LOGO CAROUSEL
+========================================= */
+
+.customer-logo-carousel {
+  width: 100%;
+
+  height: 120px;
+  min-height: 120px;
+  max-height: 120px;
+
+  margin-top: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 15px;
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+/* =========================================
+   LOGO TRACK
+========================================= */
+
+.customer-logo-track {
+  width: 650px;
+
+  height: 100px;
+  min-height: 100px;
+  max-height: 100px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+
+  overflow: hidden;
+  flex-shrink: 0;
+
+  box-sizing: border-box;
+
+  scroll-behavior: auto;
+}
+
+
+/* =========================================
+   LOGO BOX
+========================================= */
+
+.customer-logo-box {
+  width: 115px;
+  min-width: 115px;
+  max-width: 115px;
+
+  height: 95px;
+  min-height: 95px;
+  max-height: 95px;
+
+  flex-shrink: 0;
+
+  padding: 12px 8px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  background: #ffffff;
+
+  border: 1px solid #141415;
+  border-radius: 6px;
+
+  transition: box-shadow 0.3s ease;
+}
+
+
+
+
+/* =========================================
+   LOGO IMAGE
+========================================= */
+
+.customer-logo-box img {
+  width: 55px;
+  height: 42px;
+
+  display: block;
+
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+
+/* =========================================
+   LOGO NAME
+========================================= */
+
+.customer-logo-box span {
+  width: 100%;
+
+  height: 18px;
+  margin: 0;
+
+  color: #040404;
+
+  font-size: 12px;
+  line-height: 18px;
+
+  font-weight: 600;
+  text-align: center;
+
+  white-space: nowrap;
+  overflow: hidden;
+
+  flex-shrink: 0;
+}
+
+
+/* =========================================
+   CAROUSEL ARROWS
+========================================= */
+
+.customer-arrow {
+  width: 32px;
+  height: 32px;
+
+  flex-shrink: 0;
+
+  border: 1px solid #371a1a;
+  border-radius: 50%;
+
+  background: #f9f9f9;
+  color: #000000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 32px;
+
+  cursor: pointer;
+
+  transition:
+    background 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.customer-arrow-left {
+  transform: translateX(-15px);
+}
+
+.customer-arrow-left:hover {
+  transform: translateX(-15px) scale(1.08);
+}
+
+.customer-arrow-right:hover {
+  transform: scale(1.08);
+}
+
+.customer-arrow:hover {
+  background: #3af905;
+  color: #040404;
+}
+
+
+/* =========================================
+   SLIDER DOTS
+========================================= */
+
+.customer-slider-dots {
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 9px;
+
+  box-sizing: border-box;
+}
+
+/* CIRCLE DOT */
+.customer-slider-dots span {
+  width: 9px;
+  height: 9px;
+
+  min-width: 9px;
+  min-height: 9px;
+
+  display: block;
+
+  border-radius: 50%;
+
+  background: #9ea1a5;
+  border: 1px solid #555;
+
+  cursor: pointer;
+
+  box-sizing: border-box;
+
+  transition:
+    background-color 0.25s ease,
+    transform 0.25s ease,
+    border-color 0.25s ease;
+}
+
+/* HOVER - SAME COLOR AS LOGO ARROW */
+.customer-slider-dots span:hover {
+ 
+  border-color: #0b0b0b;
+
+  transform: scale(1.5);
+}
+
+/* ACTIVE CIRCLE */
+.customer-slider-dots span.active {
+  background: #000000;
+  border-color: #000000;
+
+  transform: scale(1.25);
+}
+
+
+/* =========================================
+   RESPONSIVE - 768px
+========================================= */
+
+@media (max-width: 768px) {
+
+  .customer-logo-track {
+    width: 500px;
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    gap: 10px;
+  }
+
+  .customer-logo-box {
+    width: 110px;
+    min-width: 110px;
+    max-width: 110px;
+  }
+
+  .customer-arrow {
+    width: 30px;
+    height: 30px;
+    font-size: 28px;
+  }
+}
+
+
+/* =========================================
+   RESPONSIVE - 600px
+========================================= */
+
+@media (max-width: 600px) {
+
+  .customer-logo-carousel {
+    gap: 5px;
+  }
+
+  .customer-logo-track {
+    width: 350px;
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    gap: 8px;
+  }
+
+  .customer-logo-box {
+    width: 105px;
+    min-width: 105px;
+    max-width: 105px;
+
+    height: 90px;
+    min-height: 90px;
+    max-height: 90px;
+  }
+
+  .customer-logo-box img {
+    width: 50px;
+    height: 38px;
+  }
+
+  .customer-logo-box span {
+    font-size: 11px;
+  }
+
+  .customer-arrow-left {
+    transform: translateX(0);
+  }
+
+  .customer-arrow-left:hover {
+    transform: scale(1.08);
+  }
+}
+
+
+/* =========================================
+   MOBILE - 800px
+========================================= */
+
+@media (max-width: 800px) {
+
+  .customer-success {
+    padding: 55px 20px 65px;
+  }
+
+  .customer-testimonial {
+    min-height: 0;
+    display: block;
+  }
+
+  .customer-image {
+    width: 100%;
+    height: 260px;
+    margin: 0;
+  }
+
+  .customer-about {
+    width: calc(100% - 30px);
+
+    height: auto;
+    min-height: 250px;
+
+    margin: -35px auto 0;
+
+    padding: 24px 20px;
+  }
+
+  .customer-about h3 {
+    font-size: 18px;
+  }
+
+  .customer-about p {
+    max-width: 100%;
+    font-size: 10px;
+  }
+
+  .customer-logo-area {
+    width: 100%;
+
+    height: 180px;
+    min-height: 180px;
+    max-height: 180px;
+  }
+
+  .customer-logo-carousel {
+    width: 100%;
+
+    height: 120px;
+    min-height: 120px;
+    max-height: 120px;
+
+    gap: 7px;
+
+    margin-top: 40px;
+  }
+
+  .customer-logo-track {
+    width: 100%;
+
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+
+    gap: 8px;
+  }
+
+  .customer-logo-box {
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px;
+
+    height: 82px;
+    min-height: 82px;
+    max-height: 82px;
+
+    gap: 6px;
+  }
+
+  .customer-logo-box img {
+    width: 38px;
+    height: 34px;
+  }
+
+  .customer-logo-box span {
+    width: 100%;
+
+    height: 16px;
+
+    font-size: 8px;
+    line-height: 16px;
+  }
+
+  .customer-arrow {
+    width: 28px;
+    height: 28px;
+    font-size: 20px;
+  }
+
+  .customer-slider-dots {
+    width: 100%;
+
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+
+    margin-top: 10px;
+  }
+}

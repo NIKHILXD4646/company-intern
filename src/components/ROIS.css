@@ -1,0 +1,136 @@
+
+/* =========================
+   THREE ROIS
+========================= */
+
+.roi-section {
+  padding: 60px 80px;
+  background-color: #f2f3f6;
+  text-align: center;
+}
+
+.roi-section h2 {
+  font-size: 28px;
+  font-weight: 400;
+  color: #172033;
+  margin: 0 0 40px;
+}
+
+.roi-section h2 strong{
+  font-weight: 700;
+}
+
+
+/* =========================
+   ROI CARDS
+========================= */
+
+.roi-cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 25px;
+
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+/* =========================
+   SINGLE CARD
+========================= */
+
+.roi-card {
+  width: 31%;
+  min-height: 275px;
+
+  background-color: white;
+
+  padding: 28px 25px;
+  box-sizing: border-box;
+
+  border-radius: 6px;
+
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+
+  text-align: left;
+}
+
+
+/* =========================
+   THREE ROI IMAGES
+========================= */
+
+.roi-icon {
+  width: 65px;
+  height: 65px;
+
+  margin: 0 0 25px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.roi-icon img {
+  width: 65px;
+  height: 65px;
+
+  object-fit: contain;
+  display: block;
+}
+
+
+/* =========================
+   CARD TITLE
+========================= */
+
+.roi-card h3 {
+  color: #172033;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  margin: 0 0 18px;
+
+  text-align: left;
+}
+
+
+/* =========================
+   CARD TEXT
+========================= */
+
+.roi-card p {
+  color: #666;
+
+  font-size: 14px;
+  font-weight: 400;
+
+  line-height: 1.55;
+
+  margin: 0;
+
+  text-align: left;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .roi-section {
+    padding: 50px 25px;
+  }
+
+  .roi-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .roi-card {
+    width: 100%;
+  }
+}
