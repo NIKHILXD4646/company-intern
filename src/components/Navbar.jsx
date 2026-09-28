@@ -1,5 +1,5 @@
 import "./Navbar.css";
-
+import { Link } from "react-router-dom";
 import xFactLogo from "../assets/xFact_logo.png";
 function Navbar() {
   return (
@@ -15,7 +15,7 @@ function Navbar() {
 
         <div className="nav-links">
           <a href="#home">Home</a>
-          <a href="#about">About</a>
+          <Link to="/about">About</Link>
           <a href="#methodology">Methodology</a>
           <a href="#services">IT Services</a>
           <a href="#portfolio">Portfolio</a>

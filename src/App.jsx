@@ -9,7 +9,7 @@ import Achievements from "./components/Achievements";
 import CustomerSuccess from "./components/CustomerSuccess";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
-
+import About from "./components/About";
 
 import "./App.css";
 
