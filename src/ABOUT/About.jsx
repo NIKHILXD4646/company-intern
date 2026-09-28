@@ -1,5 +1,17 @@
-import React from "react";
-import "./About.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ".ABOUT/About.css";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        {/* your existing routes */}
+
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 const leaders = [
   {
