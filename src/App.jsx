@@ -10,7 +10,6 @@ import CustomerSuccess from "./components/CustomerSuccess";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 
-import About from "../ABOUT/About";
 
 import "./App.css";
 
