@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ".ABOUT/About.css";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
         {/* your existing routes */}
 
         <Route path="/about" element={<About />} />
+        <Link to="/about">About</Link>
       </Routes>
     </BrowserRouter>
   );
