@@ -1,19 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Link } from "react-router-dom";
-import ".ABOUT/About.css";
-
-function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        {/* your existing routes */}
-
-        <Route path="/about" element={<About />} />
-        <Link to="/about">About</Link>
-      </Routes>
-    </BrowserRouter>
-  );
-}
+import "./About.css";
 
 const leaders = [
   {
@@ -51,11 +36,8 @@ const leaders = [
 function About() {
   return (
     <main className="about-page">
-
-      {/* 1. Hero */}
       <section className="about-hero">
         <div className="about-hero-container">
-
           <div className="about-hero-text">
             <h1>
               We Empower
@@ -74,14 +56,11 @@ function About() {
               alt="We Empower Innovators"
             />
           </div>
-
         </div>
       </section>
 
-      {/* 2. About xFact */}
       <section className="about-company">
         <div className="about-company-container">
-
           <p>
             xFact is a global information technology and services firm
             specializing in creating value for public sector organizations.
@@ -98,8 +77,6 @@ function About() {
             From initial assessment through design and development,
             implementation, and maintenance support, xFact strives to
             incorporate an organization's values in each solution.
-            We recognize the importance of business goals and therefore
-            consider technology as an enabler.
           </p>
 
           <p>
@@ -108,14 +85,11 @@ function About() {
             immediate needs, to long-term evaluation of national information
             systems.
           </p>
-
         </div>
       </section>
 
-      {/* 3. Our Mission */}
       <section className="mission-section">
         <div className="mission-container">
-
           <div className="mission-image">
             <img
               src="/src/assets/rocket.png"
@@ -148,14 +122,11 @@ function About() {
               </li>
             </ul>
           </div>
-
         </div>
       </section>
 
-      {/* 4. What's in a Name */}
       <section className="name-section">
         <div className="name-container">
-
           <div className="name-content">
             <h2>What's in a Name?</h2>
 
@@ -195,20 +166,16 @@ function About() {
               alt="What's in a Name"
             />
           </div>
-
         </div>
       </section>
 
-      {/* 5. Leadership */}
       <section className="leadership-section">
         <div className="leadership-container">
-
           <h2>Our Leadership</h2>
 
           <div className="leaders-grid">
-            {leaders.map((leader, index) => (
-              <div className="leader-card" key={index}>
-
+            {leaders.map((leader) => (
+              <div className="leader-card" key={leader.name}>
                 <div className="leader-image">
                   <img
                     src={leader.image}
@@ -224,7 +191,6 @@ function About() {
                   <span>●</span>
                   <span>●</span>
                 </div>
-
               </div>
             ))}
           </div>
@@ -232,10 +198,8 @@ function About() {
           <button className="load-more-btn">
             Load More
           </button>
-
         </div>
       </section>
-
     </main>
   );
 }
