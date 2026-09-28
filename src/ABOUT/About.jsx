@@ -1,4 +1,4 @@
-import About from ".git add src/ABOUT/About.jsx/ABOUT/About";
+import About from "./ABOUT/About";
 const leaders = [
   {
     name: "Cameron Williamson",
