@@ -1,5 +1,4 @@
 import "./About.css";
-
 const leaders = [
   {
     name: "Cameron Williamson",
